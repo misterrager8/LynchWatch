@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Home</title>
+    <link href="/static/favicon.ico" rel="icon">
+    <link href="/static/main.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="{{ url_for('info_page') }}">Info</a>
+            </li>
+            <!--            <li class="navbar-item">-->
+            <!--                <a class="nav-link" href="about.html">About</a>-->
+            <!--            </li>-->
+            <!--            <li class="navbar-item">-->
+            <!--                <a class="nav-link" href="contact.html">Contact</a>-->
+            <!--            </li>-->
+        </ul>
+    </div>
+    <a class="navbar-brand" href="#">
+        <img class="img-fluid" height="30" src="/static/logo.png" width="30">
+    </a>
+</nav>
+<div class="jumbotron" id="banner">
+    <h1 class="center">Welcome</h1>
+    <p class="center">Sed id enim a mauris volutpat posuere. Nam vulputate elit sit amet arcu ultrices elementum. Mauris
+        ultrices metus in dolor cursus, non blandit augue malesuada. Sed ac finibus diam. In quis libero nisi. Vivamus
+        velit augue, euismod vitae erat at, lobortis congue augue.</p>
+    <button class="button" type="button">ENTER</button>
+</div>
+<div class="container" style="text-align: center">
+    <h1 id="blue-text">Overview</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id enim a mauris volutpat posuere. Nam vulputate
+        elit sit amet arcu ultrices elementum. Mauris ultrices metus in dolor cursus, non blandit augue malesuada. Sed
+        ac finibus diam. In quis libero nisi. Vivamus velit augue, euismod vitae erat at, lobortis congue augue. Vivamus
+        ultrices vel orci ultrices aliquet. Suspendisse sed fermentum leo, ut dapibus mi.</p>
+    <div class="row">
+        <div class="col">
+            <img class="img-fluid" height="100" src="/static/001-checklist.png" width="100">
+            <h2 id="blue-text">Box 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae pellentesque libero, sed
+                aliquam dolor. Nunc fermentum felis nec viverra faucibus. Ut ornare lorem vitae arcu congue elementum.
+                Etiam interdum eros arcu, vel aliquet nisl dapibus quis. Mauris fringilla porttitor auctor. Curabitur
+                blandit convallis eros at volutpat. Ut urna metus, rhoncus ut venenatis non, ullamcorper in velit. </p>
+        </div>
+        <div class="col">
+            <img class="img-fluid" height="100" src="/static/002-goal.png" width="100">
+            <h2 id="blue-text">Box 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae pellentesque libero, sed
+                aliquam dolor. Nunc fermentum felis nec viverra faucibus. Ut ornare lorem vitae arcu congue elementum.
+                Etiam interdum eros arcu, vel aliquet nisl dapibus quis. Mauris fringilla porttitor auctor. Curabitur
+                blandit convallis eros at volutpat. Ut urna metus, rhoncus ut venenatis non, ullamcorper in velit. </p>
+        </div>
+        <div class="col">
+            <img class="img-fluid" height="100" src="/static/003-wifi.png" width="100">
+            <h2 id="blue-text">Box 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae pellentesque libero, sed
+                aliquam dolor. Nunc fermentum felis nec viverra faucibus. Ut ornare lorem vitae arcu congue elementum.
+                Etiam interdum eros arcu, vel aliquet nisl dapibus quis. Mauris fringilla porttitor auctor. Curabitur
+                blandit convallis eros at volutpat. Ut urna metus, rhoncus ut venenatis non, ullamcorper in velit. </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
