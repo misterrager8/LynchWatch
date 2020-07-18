@@ -15,5 +15,10 @@ def info_page():
     return render_template("info.html")
 
 
+@app.route("/contact")
+def contact_page():
+    return render_template("contact.html")
+
+
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)

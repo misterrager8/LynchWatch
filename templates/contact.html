@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>LynchWatch | Feed</title>
+    <title>LynchWatch | Contact</title>
     <link href="/static/favicon.ico" rel="icon">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
@@ -20,10 +20,10 @@
                 <a class="nav-link" href="{{ url_for('home_page') }}">Home</a>
             </li>
             <li class="navbar-item">
-                <a class="nav-link" href="#">Feed</a>
+                <a class="nav-link" href="{{ url_for('info_page') }}">Feed</a>
             </li>
             <li class="navbar-item">
-                <a class="nav-link" href="{{ url_for('contact_page') }}">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
     </div>
@@ -31,25 +31,5 @@
         <img class="img-fluid" height="30" src="/static/logo.png" width="30">
     </a>
 </nav>
-<table class="table table-bordered table-hover">
-    <thead>
-    <tr>
-        <th scope="col">Headline</th>
-        <th scope="col">Date</th>
-        <th scope="col">Source</th>
-        <th scope="col">Author</th>
-        <th scope="col">URL</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th scope="row">X is Y</th>
-        <td>1/1/2020</td>
-        <td>Example, USA</td>
-        <td>John Smith</td>
-        <td>ABC</td>
-    </tr>
-    </tbody>
-</table>
 </body>
 </html>
